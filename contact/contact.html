@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <title>Contact</title>
+    <link rel="shortcut icon" type="image" href="images/real-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" 
+    integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+</head>
+<body>
+        <section class="contact">
+            <div class="main">
+            <header>
+                <div class="logo">
+                    <a href="file:///E:/CV%20page/index.html"><img src="images/real-logo.png"/></a>
+                </div>
+                <nav>
+                    <div class="hamb">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="file:///E:/CV%20page/index.html">HOME</a></li>
+                        <li><a href="file:///E:/CV%20page/education/education.html">EDUCATION</a></li>
+                        <li><a href="file:///E:/CV%20page/hobby/hobby.html">HOBBIES</a></li>
+                        <li><a href="file:///E:/CV%20page/about me/abaoutme.html">ABOUT ME</a></li>
+                        <li class="btn"><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="content">
+                <h2>Contact Me</h2>
+                <p>If you are interested or if you want to learn more abaout me, you can contact me.        
+                </p>
+            </div>
+            <div class="container">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>temoelizbarashvili23@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="text">
+                            <h3>Phone Number</h3>
+                            <p>(+995) 571-12-77-01</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactForm">
+                    <form action="">
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                           <textarea required="required"></textarea>
+                            <span>Type your Message...</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="language-Geo">
+                <a href="g-contact.html"><img src="images/Georgian flag.png" id="lang-icon">"></a>
+            </div>
+        </div>
+        </section>
+        <script>
+            var hamburger = document.querySelector(".hamb");
+            var navlist = document.querySelector(".nav-list");
+            var links = document.querySelector(".nav-list li")
+    
+            hamburger.addEventListener("click", function () {
+                this.classList.toggle("click");
+                navlist.classList.toggle("open");
+            });
+        </script>
+</body>
+</html>

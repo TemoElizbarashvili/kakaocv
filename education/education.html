@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="education.css">
+    <title>Education</title>
+    <link rel="shortcut icon" type="image" href="images/real-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="whole-web">
+        <div class="main">
+            <header>
+                <div class="logo">
+                    <a href="file:///E:/CV%20page/index.html"><img src="images/real-logo.png"/></a>
+                </div>
+                <nav>
+                    <div class="hamb"> <!--აქ მოვჯვი-->
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="file:///E:/CV%20page/index.html">HOME</a></li>
+                        <li><a href="education.html">EDUCATION</a></li>
+                        <li><a href="file:///E:/CV%20page/hobby/hobby.html">HOBBIES</a></li>
+                        <li><a href="file:///E:/CV%20page/about me/abaoutme.html">ABOUT ME</a></li>
+                        <li class="btn"><a href="file:///E:/CV%20page/contact/contact.html?">CONTACT</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+
+            <div class="hero-text">
+                <h1><span class="input"></span></h1>
+            </div>
+            <section class="education">
+
+                <div class="card">
+                    <h1>University</h1>
+                    <img src="images/tsu logo.png" id="image">
+                    <section calss="text-cont">
+                        <p class="text">
+                            I am currectly comp. science student at Tbilisi state university(TSU).
+                            more about TSU: <a href="https://www.tsu.ge/"> &GT; link &lt;</a>
+                        </p>
+                    </section>
+                </div>
+                <div class="card">
+                    <h1>Self-education</h1>
+                    <img src="images/self education.jpg" id="image">
+                    <section class="text-cont">
+                        <p class="text">
+                            self-educated from online curses, Youtube, some blogs and stuff.
+                        </p>
+                    </section>
+                </div>
+            </section>
+            <div class="bottom">
+                <p>Author-- Temo Elizbarashvili</p>
+                <div class="language-Geo">
+                    <a href="g-education.html"><img src="images/Georgian flag.png" id="lang-icon">"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascropt" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings: ["Education:", "University,", "Online courses,", "Self-education..."],
+            typespeed: 20,
+            backspeed: 10,
+            loop: true
+        });
+        var hamburger = document.querySelector(".hamb");
+        var navlist = document.querySelector(".nav-list");
+        var links = document.querySelector(".nav-list li")
+
+        hamburger.addEventListener("click", function () {
+            this.classList.toggle("click");
+            navlist.classList.toggle("open");
+        });
+    </script>
+</body>
+
+</html>

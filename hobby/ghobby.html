@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby</title>
+    
+    <link rel="shortcut icon" type="image" href="images/real-logo.png">
+    <link rel="stylesheet" href="hobby.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+
+        <section class="one">
+            <div class="first">
+                <header>
+                    <div class="logo">
+                        <a href="file:///E:/CV%20page/g-index.html"><img src="images/real-logo.png"/></a>
+                    </div>
+                    <nav>
+                        <div class="hamb">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="nav-list">
+                            <li><a href="file:///E:/CV%20page/g-index.html">მთავარი</a></li>
+                            <li><a href="file:///E:/CV%20page/education/g-education.html">განათლება</a></li>
+                            <li><a href="file:///E:/CV%20page/hobby/ghobby.html">ჰობი</a></li>
+                            <li><a href="file:///E:/CV%20page/about me/g-abaoutme.html">ჩემს შესახებ</a></li>
+                            <li class="btn"><a href="file:///E:/CV%20page/contact/g-contact.html">კონტაქტი</a></li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <div class="gym">
+                    <h1>ჯიმი</h1>
+                    <p>
+                       ჩემი ერთ-ერთი ყველაზე საყვარელი ჰობია ჯიმში ვარჯიში. დარბაზში სიარული <br>
+                       მეხმარება განტვირთვაში და უსიამოვნო/ზედმეტი ფიქრებისგან თავის დაღწევაში. <br>
+                       ზოგადად, კვირაში დაახლოებით 3-4 დღე დავდივარ ჯიმში.
+                    </p>
+                </div>
+                <div class="language-Geo">
+                    <a href="hobby.html"><img src="images/english.png" id="lang-icon">"></a>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="second">
+            <div class="video-games">
+                <h1>კომპიუტერული თამაშები</h1>
+                <p>
+                   თავისუფალ დროს ხშირად ვუთმობ ვიდეო თამაშებს. ეს ჰობი ბავშვობიდან <br>
+                   მომდევს. თამაშიც მეხმარება განტვირთვაში, თუმცა ზოგჯერ საწინაღმდეგოდაც <br>
+                   მოქმედებს :kekw:. ასევე, საკუთარი კომპიუტერული თამაშის შექმნა ჩემი ერთ-ერთი მიზანია.
+                </p>
+            </div>
+        </section>
+
+        <section class="third">
+            <div class="anime">
+                <h1>ანიმეების/სერიალების ყურება</h1>
+                <p>
+                  ანიმეების,ფილმების და სერიალების ყურება ჩემთის განტვირთის <br>
+                  ერთ-ერთი საშუალებაა. 
+                </p>
+            </div>
+        </section>
+    </div>
+    <script>
+        var hamburger = document.querySelector(".hamb");
+        var navlist = document.querySelector(".nav-list");
+        var links = document.querySelector(".nav-list li")
+
+        hamburger.addEventListener("click", function () {
+            this.classList.toggle("click");
+            navlist.classList.toggle("open");
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="shortcut icon" type="image" href="images/real-logo.png">
+    <link rel="stylesheet" type="text/css" href="abaoutme.css">
+    <script type="text/js" src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="web">
+        <div class="main">
+            <header>
+
+                <div class="logo">
+                    <a href="file:///E:/CV%20page/index.html"><img src="images/real-logo.png"/></a>
+                </div>
+                <nav>
+                    <div class="hamb">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="file:///E:/CV%20page/index.html">HOME</a></li>
+                        <li><a href="file:///E:/CV%20page/education/education.html">EDUCATION</a></li>
+                        <li><a href="file:///E:/CV%20page/hobby/hobby.html">HOBBIES</a></li>
+                        <li><a href="abaoutme.html">ABOUT ME</a></li>
+                        <li class="btn"><a href="file:///E:/CV%20page/contact/contact.html?">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="disp">
+            <h1>About Me</h1>
+
+            <div class="cont">
+                <img src="images/1665604658921.png" id="img" />
+                <div class="text-alig">
+                    <p class="text">
+                        I am Temo Elizbarashvili. I'm 19 years old student. I live in Georgia, <br>
+                        Tbilisi. I know c++, c# basics. Also, html, css and js. 
+                        To be <br> honest it is  my first official web page. I am really motivated <br>
+                        to learn new things. For now, i'm jr. web engeneer. Also, I have some <br>
+                        other skills like microsoft programs(word.excel...)  <br>and adobe programs(photoshop,after effect...) <br>
+                        My native language is Georgian, but I can speak English as well. <br>
+                        and I can understend Russian. 
+                    </p>
+                </div>
+            </div>
+            <div class="info">
+                <p>
+                   As a proggramer, I know C++, C# basics, Also , html, css, js. I can say that I am hard worker <br> 
+                    and I'm not lazy to do my job, beacouse I like what I do!  
+                </p>
+            </div>
+            </div>
+            <div class="language-Geo">
+                <a href="g-abaoutme.html"><img src="images/Georgian flag.png" id="lang-icon">"></a>
+            </div>
+        </div>
+    </section>
+    <script>
+        var hamburger = document.querySelector(".hamb");
+        var navlist = document.querySelector(".nav-list");
+        var links = document.querySelector(".nav-list li")
+
+        hamburger.addEventListener("click", function () {
+            this.classList.toggle("click");
+            navlist.classList.toggle("open");
+        });
+    </script>
+</body>
+
+</html>
