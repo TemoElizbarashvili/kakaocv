@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby</title>
+    <link rel="shortcut icon" type="image" href="images/real-logo.png">
+    <link rel="stylesheet" href="hobby.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+
+        <section class="one">
+            <div class="first">
+                <header>
+                    <div class="logo">
+                        <a href="file:///E:/CV%20page/index.html"><img src="images/real-logo.png"/></a>
+                    </div>
+                    <nav>
+                        <div class="hamb">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="nav-list">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="education/education.html">EDUCATION</a></li>
+                            <li><a href="hobby.html">HOBBIES</a></li>
+                            <li><a href="abaoutme.html">ABOUT ME</a></li>
+                            <li class="btn"><a href="contact.html?">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <div class="gym">
+                    <h1>GYM</h1>
+                    <p>
+                        One of my favourite hobby is workout in a gym. Most times it helps me to clear <br> my mind
+                        and to forgot abaout job, problems, university and etc. I usually <br> workout 3-4 times in a
+                        week.
+                    </p>
+                </div>
+                <div class="language-Geo">
+                    <a href="ghobby.html"><img src="images/Georgian flag.png" id="lang-icon">"></a>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="second">
+            <div class="video-games">
+                <h1>Video games</h1>
+                <p>
+                    I really enjoy playing video games. I often spend my spare time to play <br>
+                    video games with friends. Sometimes it helps me to relax(not everytime :kekw:). <br>
+                    Also, I really wanna make my own horror game. 
+
+                </p>
+            </div>
+        </section>
+
+        <section class="third">
+            <div class="anime">
+                <h1>Watching animes</h1>
+                <p>
+                    I like watching animes(tv series) at my spare time.<br> It really helps me to clear my mind <br>
+                    and it is one of the best thing to do at late nights.
+                </p>
+            </div>
+        </section>
+    </div>
+    <script>
+        var hamburger = document.querySelector(".hamb");
+        var navlist = document.querySelector(".nav-list");
+        var links = document.querySelector(".nav-list li")
+
+        hamburger.addEventListener("click", function () {
+            this.classList.toggle("click");
+            navlist.classList.toggle("open");
+        });
+    </script>
+</body>
+
+</html>

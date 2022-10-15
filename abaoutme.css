@@ -117,7 +117,7 @@ nav .hamb {
 
 nav .hamb span {
     display: block;
-    background: rgb(233, 1, 233);
+    background: rgb(121, 18, 18);
     width: 100%;
     height: 3px;
     transition: 0.3s;
@@ -131,7 +131,7 @@ nav .hamb span:nth-child(2) {
 #img{
     margin-left: 200px;
     margin-top: 100px;
-    width: 150px;
+    width: 200px;
     z-index: 0;
     border-radius: 5%;
     border: 2px solid black;
